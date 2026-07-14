@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    color:#222;
+}
+
+.container{
+    width:95%;
+    max-width:900px;
+    margin:15px auto;
+}
+
+header{
+    background:#fff;
+    border-radius:16px;
+    padding:12px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    margin-bottom:12px;
+}
+
+.logo{
+    width:260px;
+    max-width:100%;
+    height:auto;
+    display:block;
+    margin:0 auto;
+}
+
+header h1{
+    color:#d60000;
+    font-size:22px;
+    font-weight:700;
+    margin-top:6px;
+}
+
+header p{
+    color:#666;
+    font-size:13px;
+}
+
+.card{
+    background:#fff;
+    border-radius:16px;
+    padding:16px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    margin-bottom:12px;
+}
+
+label{
+    display:block;
+    font-weight:600;
+    margin-bottom:5px;
+    margin-top:10px;
+}
+
+input,
+select{
+    width:100%;
+    padding:10px;
+    border:2px solid #ddd;
+    border-radius:10px;
+    font-size:17px;
+}
+
+input:focus,
+select:focus{
+    outline:none;
+    border-color:#d60000;
+}
+
+.resultado{
+    background:#fff;
+    border-radius:16px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    overflow:hidden;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    table-layout:fixed;
+}
+
+thead{
+    background:#d60000;
+    color:#fff;
+}
+
+th,
+td{
+    width:33.333%;
+    text-align:center;
+}
+
+th{
+    padding:4px 2px;
+    font-size:15px;
+    font-weight:600;
+}
+
+td{
+    padding:3px 2px;
+    border-bottom:1px solid #eee;
+    font-size:15px;
+    line-height:1.1;
+}
+
+tbody tr:hover{
+    background:#fafafa;
+}
+
+@media(max-width:700px){
+
+.container{
+    width:98%;
+    margin:8px auto;
+}
+
+header{
+    padding:10px;
+}
+
+.logo{
+    width:230px;
+}
+
+header h1{
+    font-size:18px;
+}
+
+header p{
+    font-size:11px;
+}
+
+.card{
+    padding:12px;
+}
+
+input,
+select{
+    padding:9px;
+    font-size:15px;
+}
+
+th,
+td{
+    width:33.333%;
+}
+
+th{
+    padding:3px 1px;
+    font-size:13px;
+}
+
+td{
+    padding:3px 1px;
+    font-size:13px;
+    line-height:1.05;
+}
+
+}
