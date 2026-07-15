@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    color:#222;
+}
+
+.container{
+    width:95%;
+    max-width:900px;
+    margin:10px auto;
+}
+
+header{
+    background:#fff;
+    border-radius:16px;
+    padding:8px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    margin-bottom:8px;
+}
+
+.logo{
+    width:260px;
+    max-width:100%;
+    height:auto;
+    display:block;
+    margin:0 auto;
+}
+
+header h1{
+    color:#d60000;
+    font-size:20px;
+    font-weight:700;
+    margin-top:2px;
+}
+
+header p{
+    color:#666;
+    font-size:12px;
+}
+
+.card{
+    background:#fff;
+    border-radius:16px;
+    padding:10px 14px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    margin-bottom:8px;
+}
+
+label{
+    display:block;
+    font-weight:700;
+    font-size:17px;
+    margin-bottom:4px;
+    text-align:center;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    border:2px solid #ddd;
+    border-radius:10px;
+    font-size:20px;
+    font-weight:600;
+    text-align:center;
+}
+
+input:focus{
+    outline:none;
+    border-color:#d60000;
+}
+
+.resultado{
+    background:#fff;
+    border-radius:16px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    overflow:hidden;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    table-layout:auto;
+}
+
+thead{
+    background:#d60000;
+    color:#fff;
+}
+
+th{
+    padding:5px 2px;
+    font-size:17px;
+    font-weight:700;
+    text-align:center;
+}
+
+td{
+    padding:4px 2px;
+    border-bottom:1px solid #eee;
+    font-size:17px;
+    font-weight:500;
+    line-height:1.1;
+    text-align:center;
+}
+
+tbody tr:hover{
+    background:#fafafa;
+}
+
+@media(max-width:700px){
+
+.container{
+    width:98%;
+    margin:6px auto;
+}
+
+header{
+    padding:6px;
+    margin-bottom:6px;
+}
+
+.logo{
+    width:220px;
+}
+
+header h1{
+    font-size:17px;
+    margin-top:2px;
+}
+
+header p{
+    font-size:10px;
+}
+
+.card{
+    padding:8px 10px;
+    margin-bottom:6px;
+}
+
+label{
+    font-size:15px;
+    margin-bottom:3px;
+}
+
+input{
+    padding:8px;
+    font-size:18px;
+}
+
+th{
+    padding:3px 1px;
+    font-size:16px;
+}
+
+td{
+    padding:3px 1px;
+    font-size:16px;
+    line-height:1.05;
+}
+
+}
